@@ -3,7 +3,7 @@ Readable = require 'readable-stream/readable'
 request = require 'request'
 
 ###*
- * Stream that scrapes as many comments as possible for a given user.
+ * Stream that scrapes as many comments as possible for any inputted user.
  * @param {String} options.username
  * @return {Stream} A stream of comment objects.
 ###
@@ -15,7 +15,7 @@ class InstagramComments extends Readable
 
   constructor: ({@post}) ->
     @cookieJar = request.jar()
-    # remove the explicit HWM setting when github.com/nodejs/node/commit/e1fec22
+    # remove the explicit HWM setting
     # is merged into readable-stream
     super(highWaterMark: 16, objectMode: true)
     @_readableState.destroyed = false
