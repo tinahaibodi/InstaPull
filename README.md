@@ -1,3 +1,2 @@
 # InstaPull 📷
-Grab Instagram data without using their API
-
+Grab Instagram data without using the Instagram API
