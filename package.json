@@ -4,6 +4,6 @@
   "author" : "Tina Haibodi",
   "desc" : "Pull Instagram data without using their API.",
   "dependencies" : {
-    "jquery": "2.8.x"
+    "jquery": "1.8.x"
   }
 }
