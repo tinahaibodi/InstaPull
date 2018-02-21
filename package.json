@@ -1,0 +1,9 @@
+{
+  "name" : "InstaPull",
+  "version" : "0.0.1",
+  "author" : "Tina Haibodi",
+  "desc" : "Pull Instagram data without using their API.",
+  "dependencies" : {
+    "jquery": "2.8.x"
+  }
+}
